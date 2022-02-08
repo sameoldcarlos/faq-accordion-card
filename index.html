@@ -1,40 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="content-accordion">
+        <div class="images">
+          <img
+            src="./assets/images/illustration-box-desktop.svg"
+            alt=" caixa laranja com simbolo de arroba &#64; na parte superior"
+            class="first-image"
+          />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FAQ Accordion Card</title>
+          <img
+            src="./assets/images/illustration-woman-online-mobile.svg"
+            alt=" ilustração mulher olhando para a tela do computador"
+            class="second-image"
+          />
+        </div>
+        <h1 class="faq">FAQ</h1>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+        <button class="question">How many team members can I invite?</button>
+        <div class="answer">
+          You can invite up to 2 additional users on the Free plan. There is no
+          limit on team members for the Premium plan
+        </div>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+        <button class="question">What is the maximum file upload size?</button>
+        <div class="answer">
+          No more than 2GB. All files in your account must fit your allotted
+          storage space.
+        </div>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+        <button class="question">How do I reset my password?</button>
+        <div class="answer">
+          Click “Forgot password” from the login page or “Change password” from
+          your profile page. A reset link will be emailed to you.
+        </div>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
+        <button class="question">Can I cancel my subscription?</button>
+        <div class="answer">
+          Yes! Send us a message and we&#39;ll process your request no questions
+          asked.
+        </div>
 
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        <button class="question">Do you provide additional support?</button>
+        <div class="answer">
+          Chat and email support is available 24/7. Phone lines are open during
+          normal business hours.
+        </div>
+      </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </div>
+  </body>
 </html>
