@@ -1,0 +1,9 @@
+:root {
+  --color-amethyst-purple: hsl(273, 75%, 66%);
+  --color-dark-purple: hsl(252, 63%, 61%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-black-russian: hsl(238, 29%, 16%);
+  --color-crusta-orange: hsl(14, 88%, 65%);
+  --color-storm-gray: hsl(240, 6%, 50%);
+  --color-lavender-gray: hsl(240, 5%, 91%);
+}
