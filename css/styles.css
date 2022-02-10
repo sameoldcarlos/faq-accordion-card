@@ -4,7 +4,9 @@ main {
     var(--color-amethyst-purple),
     var(--color-dark-purple)
   );
-  height: 792px;
+  height: 1280px;
+  font-family: Kumbh Sans;
+  font-size: 13px;
 }
 
 .content-accordion {
@@ -13,8 +15,7 @@ main {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  height: 550px;
-  top: 140px;
+  top: 220px;
   border-radius: 40px;
 }
 
@@ -37,7 +38,7 @@ main {
 .faq {
   margin: 12px;
   position: relative;
-  bottom: 80px;
+  bottom: 65px;
 }
 .title {
   color: var(--color-black-russian);
@@ -81,8 +82,19 @@ main {
 }
 
 .answer {
-  padding: 18px;
+  padding: 10px;
   background-color: var(--color-white);
   display: none;
   overflow: hidden;
+  border-bottom: 1px solid var(--color-lavender-gray);
+  line-height: 22px;
+  margin: 2px;
+  color: var(--color-storm-gray);
+  font-weight: 400;
+}
+
+footer {
+  background-color: var(--color-dark-purple);
+  text-align: center;
+  font-size: 14px;
 }
