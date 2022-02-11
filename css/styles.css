@@ -4,7 +4,7 @@ main {
     var(--color-amethyst-purple),
     var(--color-dark-purple)
   );
-  height: 1280px;
+  height: 890px;
   font-family: Kumbh Sans;
   font-size: 13px;
 }
@@ -97,4 +97,47 @@ footer {
   background-color: var(--color-dark-purple);
   text-align: center;
   font-size: 14px;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+  }
+
+  .content-accordion {
+    display: grid;
+    grid-template-columns: 450px 340px;
+    width: 900px;
+    height: 570px;
+    align-items: center;
+  }
+
+  .images {
+    width: 451px;
+  }
+  .first-image {
+    display: block;
+    width: 200px;
+    position: absolute;
+    z-index: 3;
+    right: 32px;
+    top: 127px;
+    right: 354px;
+  }
+
+  .second-image {
+    height: 305px;
+    position: absolute;
+    top: 32px;
+    right: 118px;
+  }
+
+  .third-image {
+    position: relative;
+    height: 200px;
+    top: 212px;
+    right: 112px;
+  }
+
+  .faq {
+  }
 }
