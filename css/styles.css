@@ -1,0 +1,143 @@
+main {
+  background-image: linear-gradient(
+    180deg,
+    var(--color-amethyst-purple),
+    var(--color-dark-purple)
+  );
+  height: 890px;
+  font-family: Kumbh Sans;
+  font-size: 13px;
+}
+
+.content-accordion {
+  background-color: var(--color-white);
+  width: 330px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 220px;
+  border-radius: 40px;
+}
+
+.images {
+  width: 220px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 115px;
+}
+.third-image {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 115px;
+}
+
+.faq {
+  margin: 12px;
+  position: relative;
+  bottom: 65px;
+}
+.title {
+  color: var(--color-black-russian);
+  text-align: center;
+  font-family: Kumbh Sans;
+  font-weight: 700;
+}
+
+.first-image {
+  display: none;
+}
+
+.question {
+  background-color: var(--color-white);
+  color: var(--color-storm-gray);
+  font-size: 16px;
+  margin: 2px;
+  cursor: pointer;
+  padding: 7px;
+  text-align: center;
+  border: none;
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid var(--color-lavender-gray);
+  line-height: 40px;
+}
+
+.second-question {
+  color: var(--color-black-russian);
+  margin: 3px;
+}
+
+.active,
+.question:hover {
+  color: var(--color-crusta-orange);
+}
+
+.arrow-down {
+  margin: 2px 0px 2px 12px;
+}
+
+.answer {
+  padding: 10px;
+  background-color: var(--color-white);
+  display: none;
+  overflow: hidden;
+  border-bottom: 1px solid var(--color-lavender-gray);
+  line-height: 22px;
+  margin: 2px;
+  color: var(--color-storm-gray);
+  font-weight: 400;
+}
+
+footer {
+  background-color: var(--color-dark-purple);
+  text-align: center;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+  }
+
+  .content-accordion {
+    display: grid;
+    grid-template-columns: 450px 340px;
+    width: 900px;
+    height: 570px;
+    align-items: center;
+  }
+
+  .images {
+    width: 451px;
+  }
+  .first-image {
+    display: block;
+    width: 200px;
+    position: absolute;
+    z-index: 3;
+    right: 32px;
+    top: 127px;
+    right: 354px;
+  }
+
+  .second-image {
+    height: 305px;
+    position: absolute;
+    top: 32px;
+    right: 118px;
+  }
+
+  .third-image {
+    position: relative;
+    height: 200px;
+    top: 212px;
+    right: 112px;
+  }
+
+  .faq {
+  }
+}
